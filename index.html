@@ -31,7 +31,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Christian Bradford</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Online Portfolio</a>
         <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fa fa-bars"></i>
         </button>
@@ -43,9 +43,9 @@
             <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
             </li>
-            <li class="nav-item mx-0 mx-lg-1">
+            <!--<li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
-            </li>
+            </li>-->
           </ul>
         </div>
       </div>
@@ -55,7 +55,7 @@
     <header class="masthead bg-primary text-white text-center">
       <div class="container">
         <img class="img-fluid mb-5 d-block mx-auto" src="img/profile.png" alt="place_holder.png">
-        <h1 class="text-uppercase mb-0">Online Portfolio</h1>
+        <h1 class="text-uppercase mb-0">Christian Bradford</h1>
         <hr class="star-light">
         <h2 class="font-weight-light mb-0">C#, C++, Python Developer - B.Sc Software Development - A.I. Enthusiast</h2>
       </div>
@@ -117,15 +117,13 @@
       </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- Contact Section
     <section id="contact">
       <div class="container">
         <h2 class="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
         <hr class="star-dark mb-5">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-            <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
             <form name="sentMessage" id="contactForm" novalidate="novalidate">
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
@@ -164,7 +162,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section>-->
 
     <!-- Footer -->
     <footer class="footer text-center">
@@ -214,10 +212,34 @@
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <img class="img-fluid mb-5" src="img/portfolio/cplusplus.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <a href="https://github.com/magicpine/Survival">
+                <h2 class="text-secondary text-uppercase mb-0">Surival</h2>
+              </a>
+              <hr class="star-dark mb-5">
+              <p class="mb-5">The 2D world is represented by a 2D grid of 8x8 squares (2d Array) each square contains a creature in it or not. All the creatures are safe in the world given these conditions; The world is divided into rows, columns and diagonals. There are exactly 8 creatures in the world. All creatures must be able to survive. They can only survive if no creature can “see” another. For them to survive there must be exactly one creature in each row and exactly one creature in each column, and at most one creature in the 30 diagonals.</p>
+              <a href="https://github.com/magicpine/LinkedListSimpleString">
+                <h2 class="text-secondary text-uppercase mb-0">Singly-Linked-List</h2>
+              </a>
+              <hr class="star-dark mb-5">
+              <p class="mb-5">This is a example of a singly linked list built by hand to prove that I know how one works.</p>
+              <a href="https://github.com/magicpine/VoteCounter">
+                <h2 class="text-secondary text-uppercase mb-0">VoteCounter</h2>
+              </a>
+              <hr class="star-dark mb-5">
+              <p class="mb-5">Implement a vote-counting application for a simple electoral system. Complete a vote-counting application for a simple electoral system based in single-seat constituencies. There are a number of candidates, one which will be elected. Each voter scores the candidates in order of preference 1, 2, 3 etc. on a ballot paper. During the count, each ballot paper is distributed initially to the can­didate who received the highest preference on that paper. Once this is done, candidates are eliminated one by one until only one remains, the last remaining candidate being deemed the winner. At each elimination the candidate with the lowest number of votes is chosen and his votes are re-distributed among the remaining candidates, with each voting paper being awarded to the remaining candidate with the highest preference on that ballot paper. All ties are solved by random choice.</p>
+              <a href="https://github.com/magicpine/Bengine">
+                <h2 class="text-secondary text-uppercase mb-0">Bengine</h2>
+              </a>
+              <hr class="star-dark mb-5">
+              <p class="mb-5">This is my game engine that I built using the OpenGL and Glew32 libraries.</p>
+              <a href="https://github.com/magicpine/BullCowGame">
+                <h2 class="text-secondary text-uppercase mb-0">Bull's and Cow's</h2>
+              </a>
+              <hr class="star-dark mb-5">
+              <p class="mb-5">This is an take on the classic word game Bull's and Cow's game.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
-                Close Project</a>
+                Close</a>
             </div>
           </div>
         </div>
@@ -233,13 +255,40 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <img class="img-fluid mb-5" src="img/portfolio/csharp.png" alt="">
+              <a href="https://github.com/magicpine/Tetris">
+                <h2 class="text-secondary text-uppercase mb-0">Tetris</h2>
+              </a>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/cake.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <p class="mb-5">This is a take on the classic game Tetris.</p>
+              <a href="https://github.com/magicpine/PickUpSticks">
+                <h2 class="text-secondary text-uppercase mb-0">Pick Up Sticks</h2>
+              </a>
+              <hr class="star-dark mb-5">
+              <p class="mb-5">This is a game where two users (A.I. and Human players) play a game to pick up sticks. The user to pick up the last stick is the loser. The A.I is built using a simple Deep Learning Algorthim that decides how many sticks to pick up based on the total current number of sticks.</p>
+              <a href="https://github.com/magicpine/TowersOfHanio">
+                <h2 class="text-secondary text-uppercase mb-0">Towers Of Hanio</h2>
+              </a>
+              <hr class="star-dark mb-5">
+              <p class="mb-5">This is the game Towers of Hanio. It is a way to show how recursion is used to figure out the problem of moving disks.</p>
+              <a href="https://github.com/magicpine/RummySolution">
+                <h2 class="text-secondary text-uppercase mb-0">Rummy</h2>
+              </a>
+              <hr class="star-dark mb-5">
+              <p class="mb-5">This is an attempt at making bots play the card game Rummy.</p>
+              <a href="https://github.com/magicpine/ASP_Calculator">
+                <h2 class="text-secondary text-uppercase mb-0">Calculator</h2>
+              </a>
+              <hr class="star-dark mb-5">
+              <p class="mb-5">This is a Calculator website, with additional themes to choose from, built using ASP.NET.</p>
+              <a href="https://github.com/magicpine/ASP_TicTacToe">
+                <h2 class="text-secondary text-uppercase mb-0">TicTacToe</h2>
+              </a>
+              <hr class="star-dark mb-5">
+              <p class="mb-5">A website to play the game TicTacToe built using ASP.NET.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
-                Close Project</a>
+                Close</a>
             </div>
           </div>
         </div>
@@ -255,13 +304,25 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <img class="img-fluid mb-5" src="img/portfolio/python.png" alt="">
+              <a href="https://github.com/magicpine/DjangoForum">
+                <h2 class="text-secondary text-uppercase mb-0">DjangoForum</h2>
+              </a>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/circus.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <p class="mb-5">This is a sample forum website that I built using the Django framework.</p>
+              <a href="https://github.com/magicpine/WordGame">
+                <h2 class="text-secondary text-uppercase mb-0">Word Game</h2>
+              </a>
+              <hr class="star-dark mb-5">
+              <p class="mb-5">This is a game where you are given one word. You then have to output seven words with the letters from the given word.</p>
+              <a href="https://github.com/magicpine/WebWordGame">
+                <h2 class="text-secondary text-uppercase mb-0">Web Word Game</h2>
+              </a>
+              <hr class="star-dark mb-5">
+              <p class="mb-5">This is a Web game where you are given one word. You then have to output seven words with the letters from the given word.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
-                Close Project</a>
+                Close</a>
             </div>
           </div>
         </div>
